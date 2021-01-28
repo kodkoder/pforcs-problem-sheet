@@ -9,8 +9,6 @@ height_cm = int(input('Please give me your height in cm: '))
 # calculate height in meters
 height_m = height_cm / 100
 
-# calculate BMI - weight divided by their height in metres squared.
+# calculate BMI - weight divided by their height in metres squared and print result with two decimals only
 bmi = weight_kg / (height_m * height_m)
 print ('BMI is {:.2f}.'.format(bmi))
-
-
