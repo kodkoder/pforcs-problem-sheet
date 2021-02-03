@@ -2,7 +2,7 @@
 # This program calculates Body Mass Index
 # author: Tomasz
 
-# Take inputs from the user
+# Take inputs from the user and store as variables
 weight_kg = int(input('Please give me your weight in kg: '))
 height_cm = int(input('Please give me your height in cm: '))
 
