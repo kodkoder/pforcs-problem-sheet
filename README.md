@@ -10,4 +10,5 @@ Write a program that calculates somebody's Body Mass Index (BMI):
 
 ### Reference:
 https://www.w3schools.com/python/python_string_formatting.asp
+
 ---
