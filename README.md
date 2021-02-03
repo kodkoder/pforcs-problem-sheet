@@ -8,3 +8,4 @@ Write a program that calculates somebody's Body Mass Index (BMI):
 
 ### Solution: 
 [bmi.py](https://github.com/kodkoder/pforcs-problem-sheet/blob/main/bmi.py)
+Reference: https://www.w3schools.com/python/python_string_formatting.asp
