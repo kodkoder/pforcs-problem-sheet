@@ -1,4 +1,6 @@
-# Programming For Security - weekly assigments
+# Programming For Security course
+
+## This is a repository containing solutions for weekly task assigments
 
 
 ###  Week 2 - Body Mass Index Calculator
