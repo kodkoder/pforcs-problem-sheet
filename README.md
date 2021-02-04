@@ -1,6 +1,7 @@
 # Programming For Cybersecurity course - weekly tasks with solutions
 
 ##  Week 2 - Body Mass Index Calculator
+### Task:
 Write a program that calculates somebody's Body Mass Index (BMI):
 * The inputs are the person's height in centimetres and weight in kilograms.
 * The output  is their weight divided by their height in metres squared.
@@ -18,6 +19,7 @@ Write a program that calculates somebody's Body Mass Index (BMI):
 
 
 ##  Week 3 - Print out todays bitcoin price
+### Task:
 Write a program (bitcoin.py) that outputs the current bitcoin price in US
 Dollars. You may use the code snippet below to get a Dict object that contains the price.
 Extra output all the price in the three currencies, in a neat way.
