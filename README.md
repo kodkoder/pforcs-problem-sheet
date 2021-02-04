@@ -1,4 +1,4 @@
-# Programming For Cybersecurity course - weekly tasks with solutions
+# Programming For Cybersecurity course - weekly problems with solutions
 
 ##  Week 2 - Body Mass Index Calculator
 ### Task:
