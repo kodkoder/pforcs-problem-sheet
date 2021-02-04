@@ -26,7 +26,7 @@ bitRateUSD = bitCurrencyUSD['rate']
 bitRateEUR = bitCurrencyEUR['rate']
 bitRateGBP = bitCurrencyGBP['rate']
 
-# Now we display the result for US Dollars. We use \n characters for readability
+# Now we display the result for US Dollars. We use '\n' characters for readability
 print("\n")
 print("Bitcoin price in USD = {}.".format(bitRateUSD))
 print("\n")
