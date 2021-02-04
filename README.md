@@ -30,7 +30,7 @@ Extra output all the price in the three currencies, in a neat way.
 \t* Bitcoin price in USD
 \t* Bitcoin price for all three currencies nicely formated 
 
-References:\
+### References:
 1. https://www.w3schools.com/python/module_requests.asp
 2. https://stackoverflow.com/questions/48894060/how-to-print-specific-key-value-from-a-dictionary
 3. https://www.w3schools.com/python/python_string_formatting.asp
