@@ -36,4 +36,4 @@ References:\
 2. https://stackoverflow.com/questions/48894060/how-to-print-specific-key-value-from-a-dictionary
 3. https://www.w3schools.com/python/python_string_formatting.asp
 
-###  Week 3 - 
+###  Week 3 
