@@ -5,10 +5,10 @@ Write a program that calculates somebody's Body Mass Index (BMI):
 * The inputs are the person's height in centimetres and weight in kilograms.
 * The output  is their weight divided by their height in metres squared.
 
-### Code:\
+### Code:
 [bmi.py](https://github.com/kodkoder/pforcs-problem-sheet/blob/main/bmi.py)
 
-Explaining the Code:
+### Explaining the Code:
 The user is prompted to input his/her weight and height. The input is stored as variables
 
 ### References:
@@ -20,7 +20,7 @@ Write a program (bitcoin.py) that outputs the current bitcoin price in US
 Dollars. You may use the code snippet below to get a Dict object that contains the price.
 Extra output all the price in the three currencies, in a neat way.
 
-### Code:\
+### Code:
 [bitcoin.py](https://github.com/kodkoder/pforcs-problem-sheet/blob/main/bitcoin.py)
 
 ### Explaining the Code:
@@ -35,4 +35,4 @@ References:\
 2. https://stackoverflow.com/questions/48894060/how-to-print-specific-key-value-from-a-dictionary
 3. https://www.w3schools.com/python/python_string_formatting.asp
 
-###  Week 3 
+##  Week 3 
