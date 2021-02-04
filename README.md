@@ -1,4 +1,4 @@
-# Programming For Security course - weekly tasks with solutions
+# Programming For Cybersecurity course - weekly tasks with solutions
 
 ##  Week 2 - Body Mass Index Calculator
 Write a program that calculates somebody's Body Mass Index (BMI):
