@@ -1,5 +1,4 @@
 # bitcoin.py
-# bitcoin.py
 # This program pulls the latest price of bitcoin from coindesk.com
 # and displays to the user the following data:
 # 1. Bitcoin price in USDollars
