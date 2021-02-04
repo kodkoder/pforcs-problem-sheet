@@ -9,7 +9,7 @@ Write a program that calculates somebody's Body Mass Index (BMI):
 [bmi.py](https://github.com/kodkoder/pforcs-problem-sheet/blob/main/bmi.py)
 
 ### Explaining the Code:
-The user is prompted to input his/her weight and height. The input is stored as variables
+The user is prompted to input his/her weight and height. The input is stored as variables and then used to calculate the result. Format function is used to display two decimals only.
 
 ### References:
 1.  https://www.w3schools.com/python/python_string_formatting.asp
