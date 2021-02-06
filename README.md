@@ -33,8 +33,6 @@ Extra output all the price in the three currencies, in a neat way.
 3. For the 2nd part of the task (three currencies displayed in a neaty way), we automate the process using a For Loop. For each key in a dictionary 'bpi' 
     we display that key name and from its dictionary we print out a value for a key with a name 'rate'.
     
-
-
 ### References:
 1. https://www.w3schools.com/python/module_requests.asp
 2. https://stackoverflow.com/questions/48894060/how-to-print-specific-key-value-from-a-dictionary
