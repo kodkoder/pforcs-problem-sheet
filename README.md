@@ -29,8 +29,8 @@ Extra output all the price in the three currencies, in a neat way.
 
 ### Explaining the Code:
 1. The program uses coindesk.com API calls to pull data with the latest Bitcon prices. The data is returned in json format. 
-2. Next we identify position of each rate within the dictionary. This is to identify dictionary keys holding bitcoin prices.
-3. Finally, we we output to the user:
+2. We identify position of USD rate within the dictionary and print out the value to the user.
+3. For 2nd part of the task we automate the process using a For Loop.
 \t* Bitcoin price in USD
 \t* Bitcoin price for all three currencies nicely formated 
 

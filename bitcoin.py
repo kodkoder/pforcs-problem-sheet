@@ -20,11 +20,7 @@ bitPriceRate = bitCoinDict['bpi']
 
 # Now we identify each currency within the dictionary with corresponding rates. We store those in newly creared variables.
 bitCurrencyUSD = bitPriceRate['USD']
-bitCurrencyEUR = bitPriceRate['EUR']
-bitCurrencyGBP = bitPriceRate['GBP']
 bitRateUSD = bitCurrencyUSD['rate']
-bitRateEUR = bitCurrencyEUR['rate']
-bitRateGBP = bitCurrencyGBP['rate']
 
 # Now we display the result for US Dollars. We use '\n' characters for readability
 print("\n")
