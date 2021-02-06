@@ -27,7 +27,7 @@ print("\n")
 print("Bitcoin price in USD = {}.".format(bitRateUSD))
 print("\n")
 
-# The same we can be automated by using a for loop. For each key in a dictionary 'bpi' 
+# The same process can be automated for three currencies by using a For Loop. For each key in a dictionary 'bpi' 
 # we display that key name and from its dictionary we print out a value for a key with a name 'rate'
 for item in bitPriceRate:
-    print(item,bitPriceRate[item]['rate'])
+    print("Bitcoin price in {} = {}.".format(item,bitPriceRate[item]['rate']))
