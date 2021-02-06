@@ -30,8 +30,8 @@ bitRateGBP = bitCurrencyGBP['rate']
 print("\n")
 print("Bitcoin price in USD = {}.".format(bitRateUSD))
 print("\n")
-# We display Bitcoin pricess in all three currencies
-# Format 
-print("Bitcoin price in US Dollars is {}, in Euro {} and in British Pound Sterling {}.".format(bitRateUSD,bitRateEUR,bitRateGBP))
-print("\n")
 
+# The same we can be automated by using a for loop. For each key in a dictionary 'bpi' 
+# we display that key name and from its dictionary we print out a value for a key with a name 'rate'
+for item in bitPriceRate:
+    print(item,bitPriceRate[item]['rate'])
