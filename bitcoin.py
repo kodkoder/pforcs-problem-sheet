@@ -18,7 +18,7 @@ bitCoinDict = returnedData.json()
 # We specfify a name of the key where bitcoin rates are located:
 bitPriceRate = bitCoinDict['bpi']
 
-# Now we find USD dicrionary within the dictionary 'bpi' with corresponding rates for USD Dollars. We store those in newly creared variables.
+# Now we find a dictionary holding Bitcoin prices in USD Dollars. We store the price in a variable.
 bitCurrencyUSD = bitPriceRate['USD']
 bitRateUSD = bitCurrencyUSD['rate']
 
