@@ -37,5 +37,6 @@ Extra output all the price in the three currencies, in a neat way.
 1. https://www.w3schools.com/python/module_requests.asp
 2. https://stackoverflow.com/questions/48894060/how-to-print-specific-key-value-from-a-dictionary
 3. https://www.w3schools.com/python/python_string_formatting.asp
+4. https://www.w3schools.com/python/python_dictionaries_loop.asp
 
 ##  Week 3 
