@@ -19,7 +19,7 @@ print("Bitcoin price in USD = {}.".format(bitRateUSD))
 print("\n")
 
 # We repeat the same process for three currencies by using a For Loop. 
-# We specify the nested dictionary holding Bitcoin prices
+# We specify the nested dictionary holding Bitcoin prices and print those out.
 bitPriceRate = bitCoinDict['bpi']
 for item in bitPriceRate:
     print("Bitcoin price in {} = {}.".format(item,bitPriceRate[item]['rate']))
