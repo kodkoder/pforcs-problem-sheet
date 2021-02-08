@@ -13,7 +13,7 @@ url = "https://api.coindesk.com/v1/bpi/currentprice.json"
 returnedData = requests.get(url)
 bitCoinDict = returnedData.json()
 
-# We find a dictionary/item holding Bitcoin price in USD Dollars and print it.
+# We find a dictionary/item holding Bitcoin price in USD Dollars and print it out.
 bitRateUSD = (bitCoinDict["bpi"]["USD"]["rate"])
 print("Bitcoin price in USD = {}.".format(bitRateUSD))
 print("\n")
