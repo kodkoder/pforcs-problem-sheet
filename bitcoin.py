@@ -8,7 +8,7 @@
  
 import requests
 
-# Request the latest bitcoin data.
+# Requests the latest bitcoin data.
 url = "https://api.coindesk.com/v1/bpi/currentprice.json"
 returnedData = requests.get(url)
 bitCoinDict = returnedData.json()
@@ -18,7 +18,7 @@ bitRateUSD = (bitCoinDict["bpi"]["USD"]["rate"])
 print("Bitcoin price in USD = {}.".format(bitRateUSD))
 print("\n")
 
-# We repeat the same process for three currencies.
+# Repeats the same process for three currencies.
 bitPriceRate = bitCoinDict['bpi']
 for item in bitPriceRate:
     print("Bitcoin price in {} = {}.".format(item,bitPriceRate[item]['rate']))
