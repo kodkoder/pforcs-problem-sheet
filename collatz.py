@@ -11,11 +11,11 @@ print(x, end = " ")
 
 # perform calculations until until x equals 1
 while x != 1:
-    if x == 1:  # end while loop when x =1
+    if x == 1:      # end while loop when x =1
         print ("1", end = " ")
-    elif x % 2 == 0: # check if x is even
+    elif x % 2 == 0:        # check if x is even
         x = int(x / 2)
         print (x, end =" ")
-    elif x % 2 == 1: # check if x is odd
+    elif x % 2 == 1:        # check if x is odd
         x = int(x * 3 + 1)
         print (x, end = " ")
