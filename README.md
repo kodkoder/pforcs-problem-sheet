@@ -52,9 +52,9 @@ Have the program end if the current value is one.
 ### Explaining the Code:
 1. The program asks the user to provide a positive integer. 
 2. The program uses while loop and perform following calculations:
-\t* if the number ('x') is even, devides the number by 2
-\t* if the number ('x') is odd, multiplies it by three and add one to it
-\t* the calculations continues until 'x' equals 1
+    * if the number ('x') is even, devides the number by 2
+    * if the number ('x') is odd, multiplies it by three and add one to it
+    * the calculations continues until 'x' equals 1
 3. Results are displayed in one line.
     
 ### References:
