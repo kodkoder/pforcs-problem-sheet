@@ -40,4 +40,23 @@ Extra output all the price in the three currencies, in a neat way.
 4. https://www.w3schools.com/python/python_dictionaries_loop.asp
 5. https://careerkarma.com/blog/python-nested-dictionary/
 
-##  Week 3 
+##  Week 4
+### Task:
+Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation.
+At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
+Have the program end if the current value is one.
+
+### Code:
+[bitcoin.py](https://github.com/kodkoder/pforcs-problem-sheet/blob/main/bitcoin.py)
+
+### Explaining the Code:
+1. The program uses coindesk.com API calls to pull data with the latest Bitcon prices. The data is returned in json format. 
+2. We identify position of USD rate within the nested dictionary and print out the value to the user.
+3. For the 2nd part of the task (three currencies displayed in a neat way), we automate the process using a For Loop. For each key in a dictionary 'bpi' 
+    we display that key name and from its dictionary we print out a value for a key with a name 'rate'.
+    
+### References:
+1. https://www.w3schools.com/python/python_conditions.asp
+2. https://www.w3schools.com/python/python_while_loops.asp
+3. https://stackoverflow.com/questions/11856945/i-need-to-make-the-output-be-in-one-line
+
