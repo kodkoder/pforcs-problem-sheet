@@ -50,7 +50,7 @@ Have the program end if the current value is one.
 [collatz.py](https://github.com/kodkoder/pforcs-problem-sheet/blob/main/collatz.py)
 
 ### Explaining the Code:
-1. The program asks the user to provide a positive integer. 
+1. The program asks a user to provide a positive integer. 
 2. The program uses while loop and perform following calculations:
     * if the number ('x') is even, devides the number by 2
     * if the number ('x') is odd, multiplies it by three and add one to it
