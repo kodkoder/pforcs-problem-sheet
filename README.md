@@ -47,13 +47,15 @@ At each step calculate the next value by taking the current value and, if it is 
 Have the program end if the current value is one.
 
 ### Code:
-[bitcoin.py](https://github.com/kodkoder/pforcs-problem-sheet/blob/main/bitcoin.py)
+[collatz.py](https://github.com/kodkoder/pforcs-problem-sheet/blob/main/collatz.py)
 
 ### Explaining the Code:
-1. The program uses coindesk.com API calls to pull data with the latest Bitcon prices. The data is returned in json format. 
-2. We identify position of USD rate within the nested dictionary and print out the value to the user.
-3. For the 2nd part of the task (three currencies displayed in a neat way), we automate the process using a For Loop. For each key in a dictionary 'bpi' 
-    we display that key name and from its dictionary we print out a value for a key with a name 'rate'.
+1. The program asks the user to provide a positive integer. 
+2. The program uses while loop and perform following calculations:
+* if the number ('x') is even, devides the number by 2
+* if the number ('x') is odd, multiplies it by three and add one to it
+* the calculations continues until 'x' equals 1
+3. Results are displayed in one line.
     
 ### References:
 1. https://www.w3schools.com/python/python_conditions.asp
