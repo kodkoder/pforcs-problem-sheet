@@ -15,5 +15,5 @@ while x != 1:
         x = int(x / 2)
         print (x, end =" ")
     elif x % 2 == 1: # check if x is odd
-        x= int(x * 3 + 1)
+        x = int(x * 3 + 1)
         print (x, end = " ")
