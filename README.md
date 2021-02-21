@@ -62,3 +62,24 @@ Have the program end if the current value is one.
 2. https://www.w3schools.com/python/python_while_loops.asp
 3. https://stackoverflow.com/questions/11856945/i-need-to-make-the-output-be-in-one-line
 
+##  Week 5
+### Task:
+Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
+
+### Code:
+[squareroot.py](https://github.com/kodkoder/pforcs-problem-sheet/blob/main/squareroot.py)
+
+### Explaining the Code:
+1. The program asks a user to provide a positive integer. 
+2. The program uses while loop and perform following calculations:
+    * if the number ('x') is even, devides the number by 2
+    * if the number ('x') is odd, multiplies it by three and add one to it
+    * the calculations continues until 'x' equals 1
+3. Results are displayed in one line.
+    
+### References:
+1. https://www.goeduhub.com/3398/python-program-to-find-the-square-root-number-newtons-method
+2. https://careerkarma.com/blog/python-valueerror-invalid-literal-for-int-with-base-10/
+3. https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
+4. https://tarinder1103.wordpress.com/2017/02/09/finding-square-root-by-using-newton-raphson-method-in-python/
+5. https://www.w3schools.com/python/python_string_formatting.asp
