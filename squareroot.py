@@ -5,8 +5,6 @@
 # 
 # Author: Tomasz
 
-#The square root of 14.5 is approx. 3.8.
-
 def sq_root(number):
     num = float (number)  # number to get sqare root of
     for i in range (1000):  # iteration number
@@ -16,4 +14,4 @@ def sq_root(number):
 
 # get the number and transoft it to a float
 num = float(input("Please enter a positive number: "))
-print("The queare root of {} is approx. {:.1f}.".format(num, sq_root(num)))
+print("The square root of {} is approx. {:.1f}.".format(num, sq_root(num)))
