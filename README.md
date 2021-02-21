@@ -70,12 +70,9 @@ Write a program that takes a positive floating-point number as input and outputs
 [squareroot.py](https://github.com/kodkoder/pforcs-problem-sheet/blob/main/squareroot.py)
 
 ### Explaining the Code:
-1. The program asks a user to provide a positive integer. 
-2. The program uses while loop and perform following calculations:
-    * if the number ('x') is even, devides the number by 2
-    * if the number ('x') is odd, multiplies it by three and add one to it
-    * the calculations continues until 'x' equals 1
-3. Results are displayed in one line.
+1. Define a function to calculate a square root of a number (Newton method)
+2. Take a number from the user and story it as a float
+3. Print out the number and its square root calculated by invoking the function. Format the it to display only one decimel.
     
 ### References:
 1. https://www.goeduhub.com/3398/python-program-to-find-the-square-root-number-newtons-method
