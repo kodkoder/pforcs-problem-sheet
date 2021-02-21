@@ -70,7 +70,7 @@ Write a program that takes a positive floating-point number as input and outputs
 [squareroot.py](https://github.com/kodkoder/pforcs-problem-sheet/blob/main/squareroot.py)
 
 ### Explaining the Code:
-1. Define a function to calculate a square root of a number (Newton method)
+1. Define a function to calculate a square root of a number (using Newton method)
 2. Take a number from the user and story it as a float
 3. Print out the number and its square root calculated by invoking the function. Format the it to display only one decimel.
     
