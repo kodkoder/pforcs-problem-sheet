@@ -40,7 +40,7 @@ Extra output all the price in the three currencies, in a neat way.
 4. https://www.w3schools.com/python/python_dictionaries_loop.asp
 5. https://careerkarma.com/blog/python-nested-dictionary/
 
-##  Week 4
+##  Week 4 - Flow control
 ### Task:
 Write a program that asks a user to input any positive integer and outputs the successive values of the following calculation.
 At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
@@ -62,7 +62,7 @@ Have the program end if the current value is one.
 2. https://www.w3schools.com/python/python_while_loops.asp
 3. https://stackoverflow.com/questions/11856945/i-need-to-make-the-output-be-in-one-line
 
-##  Week 5
+##  Week 5 - Square root
 ### Task:
 Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
 
@@ -81,12 +81,12 @@ Write a program that takes a positive floating-point number as input and outputs
 4. https://tarinder1103.wordpress.com/2017/02/09/finding-square-root-by-using-newton-raphson-method-in-python/
 5. https://www.w3schools.com/python/python_string_formatting.asp
 
-##  Week 6
+##  Week 6 - Count e's
 ### Task:
 Write a program that reads in a text file and outputs the number of e's it contains.
 The program should take the filename from an argument on the command line.
 
-### Code:
+### Code: 
 [es.py](https://github.com/kodkoder/pforcs-problem-sheet/blob/main/es.py)
 
 ### Explaining the Code:
