@@ -14,9 +14,9 @@ with open (file_arg,'r+t') as f:
     data = f.read()
 
 char = 'e'  # specify character you will be counting
-occur = 0
+occur = 0  # start counting from zero
 
-    # loop through each characted and count all e's 
+# loop through each characted and count all e's 
 for i in data:    
     if i == 'e':
         occur += 1     # add 1 to res for each occurance
