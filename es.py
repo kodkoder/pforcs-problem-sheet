@@ -3,8 +3,6 @@
 # This program that reads in a text file 
 # and outputs the number of e's it contains.
 # Author: Tomasz
-# $ python es.py moby-dick.txt
-# 116960
 
 import sys
 
