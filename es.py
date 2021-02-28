@@ -12,15 +12,16 @@ file_arg = str(sys.argv[1])
 # read the file contents
 with open (file_arg,'r+t') as f:
     data = f.read()
-    char = 'e'  # specify character you will be counting
-    occur = 0
-    
+
+char = 'e'  # specify character you will be counting
+occur = 0
+
     # loop through each characted and count all e's 
-    for i in data:    
-        if i == 'e':
-            occur += 1     # add 1 to res for each occurance
-        else:
-            continue
+for i in data:    
+    if i == 'e':
+        occur += 1     # add 1 to res for each occurance
+    else:
+        continue
 
 # print the result out
 print(occur)
