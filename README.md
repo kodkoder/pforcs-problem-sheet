@@ -80,3 +80,23 @@ Write a program that takes a positive floating-point number as input and outputs
 3. https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
 4. https://tarinder1103.wordpress.com/2017/02/09/finding-square-root-by-using-newton-raphson-method-in-python/
 5. https://www.w3schools.com/python/python_string_formatting.asp
+
+##  Week 6
+### Task:
+Write a program that reads in a text file and outputs the number of e's it contains.
+The program should take the filename from an argument on the command line.
+
+### Code:
+[es.py](https://github.com/kodkoder/pforcs-problem-sheet/blob/main/es.py)
+
+### Explaining the Code:
+1. Define a function to calculate a square root of a number (using Newton method)
+2. Take a number from the user and story it as a float
+3. Print out the number and its square root calculated by invoking the function. Format the it to display only one decimel.
+    
+### References:
+1. https://realpython.com/python-command-line-arguments/
+2. https://www.pythonforbeginners.com/system/python-sys-argv
+3. https://realpython.com/working-with-files-in-python/#pythons-with-open-as-pattern
+4. https://duckduckgo.com/?q=io.UnsupportedOperation%3A+not+readable&t=braveed&ia=web
+5. https://www.tutorialspoint.com/count-occurrences-of-a-character-in-string-in-python
