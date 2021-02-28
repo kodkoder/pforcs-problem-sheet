@@ -20,5 +20,5 @@ with open (file_arg,'r+t') as f:
             occur += 1     # add 1 to res for each occurance
         else:
             continue
-    # print result
+    # print the result out
     print(occur)
