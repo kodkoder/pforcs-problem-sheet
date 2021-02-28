@@ -70,9 +70,9 @@ Write a program that takes a positive floating-point number as input and outputs
 [squareroot.py](https://github.com/kodkoder/pforcs-problem-sheet/blob/main/squareroot.py)
 
 ### Explaining the Code:
-1. Define a function to calculate a square root of a number (using Newton method)
-2. Take a number from the user and story it as a float
-3. Print out the number and its square root calculated by invoking the function. Format the it to display only one decimel.
+1. We define a function to calculate a square root of a number (using Newton method)
+2. We take a number from the user and story it as a float
+3. Next we print out the number and its square root calculated by invoking the function and format it to display only one decimel.
     
 ### References:
 1. https://www.goeduhub.com/3398/python-program-to-find-the-square-root-number-newtons-method
@@ -90,9 +90,11 @@ The program should take the filename from an argument on the command line.
 [es.py](https://github.com/kodkoder/pforcs-problem-sheet/blob/main/es.py)
 
 ### Explaining the Code:
-1. Define a function to calculate a square root of a number (using Newton method)
-2. Take a number from the user and story it as a float
-3. Print out the number and its square root calculated by invoking the function. Format the it to display only one decimel.
+1. The program imports sys module which is used to take the argument (filename) from the command line.
+2. Contents of the file are read.
+3. The program specifies the characted I we are interested in.
+4. The script loops through the text using a for loop adding 1 to the 'occur' number each time the character equals 'e'. This is to count a number of occurances
+5. Finally, the rusult is printed back to the user.
     
 ### References:
 1. https://realpython.com/python-command-line-arguments/
