@@ -10,6 +10,7 @@ filename = "access.log"  # file we want to analyze
 #open file
 with open(filename, 'r') as access_logs:
     for line in access_logs:
+        #define regex statement
         regex = "/[^0-9A-Z/][^w][[a-zA-Z.?=0-9-&/]{1,}"
         # find matches
         x = re.findall(regex, line)
