@@ -1,5 +1,5 @@
 # extract_url.py
-# This program will extract the URLs from an access.log file.
+# This program will extract the URLs from the access.log file.
 #
 # Author: Tomasz
 
