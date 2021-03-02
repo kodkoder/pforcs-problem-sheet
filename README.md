@@ -111,12 +111,12 @@ Write a program called extract-url.py, that will extract the URLs from an access
 [extract-url.py,](https://github.com/kodkoder/pforcs-problem-sheet/blob/main/extract-url.py,)
 
 ### Explaining the Code:
-1. The program imports sys module which is used to take the argument (filename) from the command line.
-2. Contents of the file are read.
-3. The program specifies the characted I we are interested in.
-4. The script loops through the text using a for loop adding 1 to the 'occur' number each time the character equals 'e'. This is to count a number of occurances
-5. Finally, the rusult is printed back to the user.
+1. The program imports re module which allows us to use regex statements to find matches in strings 
+2. We open a file.
+3. We loop through each line and store results as strings in a list
+4. Finally we print out results to the user.
     
 ### References:
 1. https://cheatography.com/davechild/cheat-sheets/regular-expressions/
 2. https://stackoverflow.com/questions/7411194/how-can-i-make-a-regular-expression-match-upper-and-lower-case
+3. https://www.w3schools.com/python/python_regex.asp
