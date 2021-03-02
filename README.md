@@ -103,7 +103,7 @@ The program should take the filename from an argument on the command line.
 4. https://duckduckgo.com/?q=io.UnsupportedOperation%3A+not+readable&t=braveed&ia=web
 5. https://www.tutorialspoint.com/count-occurrences-of-a-character-in-string-in-python
 
-##  Week 7 - Extract URL
+##  Week 7 - Extract URLs
 ### Task:
 Write a program called extract-url.py, that will extract the URLs from an access.log file.
 
