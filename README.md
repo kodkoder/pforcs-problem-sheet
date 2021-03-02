@@ -108,7 +108,7 @@ The program should take the filename from an argument on the command line.
 Write a program called extract-url.py, that will extract the URLs from an access.log file.
 
 ### Code: 
-[extract-url.py,](https://github.com/kodkoder/pforcs-problem-sheet/blob/main/extract-url.py,)
+[extract-url.py](https://github.com/kodkoder/pforcs-problem-sheet/blob/main/extract-url.py)
 
 ### Explaining the Code:
 1. The program imports re module which allows us to use regex statements to find matches in strings 
