@@ -120,3 +120,20 @@ Write a program called extract-url.py, that will extract the URLs from an access
 1. https://cheatography.com/davechild/cheat-sheets/regular-expressions/
 2. https://stackoverflow.com/questions/7411194/how-can-i-make-a-regular-expression-match-upper-and-lower-case
 3. https://www.w3schools.com/python/python_regex.asp
+
+##  Week 7 - Extra
+### Task:
+Store the URLs as a Dictionary object in the list with the resource and parameter names and values separated out eg
+
+### Code: 
+[extract_url_to_dict.py](https://github.com/kodkoder/pforcs-problem-sheet/blob/main/extract_url_to_dict.py)
+
+### Explaining the Code:
+1. The program imports re module which allows us to use regex statements to find matches in strings 
+2. We open a file.
+3. We loop through each line and store results as strings in a list
+4. Finally we print out results to the user.
+    
+### References:
+1. https://www.w3schools.com/python/python_regex.asp
+2. https://stackoverflow.com/questions/20181899/how-to-make-each-key-value-of-a-dictionary-print-on-a-new-line
