@@ -21,9 +21,8 @@ with open(filename, 'r') as access_logs:
         
         # create a new dictionary and fill in extracted information
         para_dict = {'resource': rsc, 
-                    'parameters': {'action': act , 'itemId': item ,'productId' : product, 'JSESSIONID' : session
-        }
-        }
+                    'parameters': {'action': act , 'itemId': item ,'productId' : product, 'JSESSIONID' : session}
+                    }
 
 # print dictionary out
 pprint.pprint(para_dict, sort_dicts=False)
