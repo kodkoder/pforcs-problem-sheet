@@ -19,8 +19,9 @@ with open(filename, 'r') as access_logs:
         product = re.split('&',(re.split ('=', line)[3]))[0]    # product
         session = re.split(' ',(re.split ('=', line)[4]))[0]    # session
         
-        # create a new dictionary and fill in the information extracted above
-        para_dict = {'resource': rsc, 'parameters': {'action': act , 'itemId': item ,'productId' : product, 'JSESSIONID' : session
+        # create a new dictionary and fill in extracted information
+        para_dict = {'resource': rsc, 
+                    'parameters': {'action': act , 'itemId': item ,'productId' : product, 'JSESSIONID' : session
         }
         }
 
