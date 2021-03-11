@@ -125,7 +125,7 @@ Write a program called extract-url.py, that will extract the URLs from an access
 ### Task:
 Store the URLs as a Dictionary object in the list with the resource and parameter names and values separated out eg
 
-### Code: 
+### Code:
 [extract_url_to_dict.py](https://github.com/kodkoder/pforcs-problem-sheet/blob/main/extract_url_to_dict.py)
 
 ### Explaining the Code:
