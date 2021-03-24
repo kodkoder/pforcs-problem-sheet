@@ -123,7 +123,7 @@ Write a program called extract-url.py, that will extract the URLs from an access
 
 ##  Week 7 - Extra Task
 ### Task:
-Store the URLs as a Dictionary object in the list with the resource and parameter names and values separated out eg
+Store the URLs as a Dictionary object in the list with the resource and parameter names and values separated out.
 
 ### Code:
 [extract_url_to_dict.py](https://github.com/kodkoder/pforcs-problem-sheet/blob/main/extract_url_to_dict.py)
@@ -139,3 +139,21 @@ Store the URLs as a Dictionary object in the list with the resource and paramete
 1. https://www.w3schools.com/python/python_regex.asp
 2. https://stackoverflow.com/questions/20181899/how-to-make-each-key-value-of-a-dictionary-print-on-a-new-line
 3. https://thispointer.com/python-4-ways-to-print-items-of-a-dictionary-line-by-line/
+
+##  Week 8 - Plot
+### Task:
+Write a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
+
+### Code:
+[plottask.py](https://github.com/kodkoder/pforcs-problem-sheet/blob/main/plottask.py)
+
+### Explaining the Code:
+1. The program imports module needed to create plots.
+2. Then it defines a range and functions which will be displayed.
+3. The script defines visual parameters, title and labels.
+4. Finally, the plot is displayet to the user.
+    
+### References:
+1. https://futurestud.io/tutorials/matplotlib-getting-started-with-high-quality-plots-in-python
+2. https://www.tutorialspoint.com/python_data_science/python_matplotlib.htm
+3. https://realpython.com/python-matplotlib-guide/
