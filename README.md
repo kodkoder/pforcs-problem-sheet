@@ -157,3 +157,24 @@ Write a program called plottask.py that displays a plot of the functions f(x)=x,
 1. https://futurestud.io/tutorials/matplotlib-getting-started-with-high-quality-plots-in-python
 2. https://www.tutorialspoint.com/python_data_science/python_matplotlib.htm
 3. https://realpython.com/python-matplotlib-guide/
+
+
+##  Week 9 - Pandas
+### Task:
+Write a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
+
+### Code:
+[tricky_one.py](https://github.com/kodkoder/pforcs-problem-sheet/blob/main/tricky_one.py)
+
+### Explaining the Code:
+1. The program imports module needed to create plots.
+2. Then it defines a range and functions which will be displayed.
+3. The script defines visual parameters, title and labels.
+4. Finally, the plot is displayet to the user.
+    
+### References:
+1.https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior
+2.https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_datetime.html?highlight=to_date
+3.https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html
+4.https://pandas.pydata.org/pandas-docs/version/0.13/visualization.html
+5.https://queirozf.com/entries/pandas-dataframe-plot-examples-with-matplotlib-pyplot
