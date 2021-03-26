@@ -22,8 +22,10 @@ df = pd.read_csv(logFilename, sep=' ', header= None, names=colNames)
 
 # Removing '[' and ']'
 df['time'] = df['time'].apply(lambda x: re.search('[\w:/]+', x).group())
+
 # Formatting data time
 df['time'] = pd.to_datetime(df['time'], format='%d/%b/%Y:%H:%M:%S')
+
 # Dropping columns with dashes only
 df.drop(columns=['dash', 'user'], inplace=True)
 
@@ -43,7 +45,6 @@ print(df.groupby(by=['session'])['size of response'].sum())
 
 # Create a plot of this (type of your choice)
 plt.figure(figsize=(7, 7))
-
 plotdata = df.groupby(by=['session'])[['size of response']].sum()
 plotdata['size of response'].plot(kind='bar')
 
