@@ -167,10 +167,11 @@ Write a program called plottask.py that displays a plot of the functions f(x)=x,
 [tricky_one.py](https://github.com/kodkoder/pforcs-problem-sheet/blob/main/tricky_one.py)
 
 ### Explaining the Code:
-1. The program imports module needed to create plots.
-2. Then it defines a range and functions which will be displayed.
-3. The script defines visual parameters, title and labels.
-4. Finally, the plot is displayet to the user.
+1. The program reads the sm_access.log into a dataframe.
+2. Sets the date time to be the index.
+3. Uses regular expressions to extract the session id from the URLs and stores them in a different column.
+4. Uses groupBy to get the sum of all the data downloaded by each sessionId.
+5. Creates a plot of this.
     
 ### References:
 1.https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior
