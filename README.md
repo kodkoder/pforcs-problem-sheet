@@ -179,3 +179,31 @@ Find which sessionId downloaded the most data.
 3.https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html
 4.https://pandas.pydata.org/pandas-docs/version/0.13/visualization.html
 5.https://queirozf.com/entries/pandas-dataframe-plot-examples-with-matplotlib-pyplot
+
+
+##  Week 10 - Errors testing and logging
+### Task:
+Write a (bullet proof) function called averageTo(aList, toIndex)
+The function should take in a list and an index. 
+The function will return the average of the numbers upto and including the toIndex in the aList.
+
+When I say "bullet proof", I would like the function to always return an integer, even if a error occurs (say return -1), but it will use logging to make a meaningful log warning, for any error that occurs (eg the aList contains an entry that is not a number/ toIndex is not valid, there are many things that could go wrong)
+Write the code to test all the things that could go wrong with this function, and a test to check the function does work.
+
+The test code can be in the same file or different file.
+
+### Code:
+[bulletProof.py](https://github.com/kodkoder/pforcs-problem-sheet/blob/main/bulletProof.py)
+
+### Explaining the Code:
+1. The program imports logging module and sets logging level
+2. the program assigns two variables for later use
+3. Then try/except is used to "catch" possible errors/exceptions
+4. For each error/exception we create an individula logging message
+5. At the end of the program assertion statements are located. This is for resting purposes
+    
+### References:
+1. https://realpython.com/python-logging/
+2. https://www.w3schools.com/python/python_try_except.asp
+3. https://www.tutorialsteacher.com/python/error-types-in-python
+4. https://www.w3schools.com/python/ref_keyword_assert.asp
