@@ -15,6 +15,7 @@ import logging
 logging.basicConfig(level=logging.DEBUG)
 
 def averageTo(aList, toIndex):
+    count = len(aList)
     total = 0
     average = -1 # to compensate the index range
     
@@ -31,16 +32,16 @@ def averageTo(aList, toIndex):
                 logging.debug("At least one of the entries in the list was not a number.")
             # Error for toIndex = 0
             except ZeroDivisionError:
-                logging.debug("Index appears to be 0, please ensure the index is no equal zero")
+                logging.debug("Index appears to be 0, please ensure the index is no equal zero.")
         # negative index
         elif toIndex <=0:
-            logging.debug("The index is below Zero")
+            logging.debug("The index is below Zero.")
         # index longer than list
         else:
-            logging.debug("The index was out of range")
+            logging.debug("The index is out of range.")
     # Exception for index out of range
     except TypeError:
-        logging.debug("The index is higher than number of items in the list")
+        logging.debug("There was a problem with the index type.")
     # successfully ran function
     return average
 
