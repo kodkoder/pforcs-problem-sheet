@@ -140,7 +140,7 @@ Store the URLs as a Dictionary object in the list with the resource and paramete
 2. https://stackoverflow.com/questions/20181899/how-to-make-each-key-value-of-a-dictionary-print-on-a-new-line
 3. https://thispointer.com/python-4-ways-to-print-items-of-a-dictionary-line-by-line/
 
-##  Week 8 - Plot
+##  Week 8 - Plots
 ### Task:
 Write a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
 
